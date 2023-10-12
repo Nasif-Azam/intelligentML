@@ -1,10 +1,8 @@
 # Iltelligent Machine Learning Task using Python
 
-[![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)                 
-[![Python 3.6](https://img.shields.io/badge/python-3.6-blue.svg)](https://www.python.org/downloads/release/python-360/)
-[![image](https://img.shields.io/pypi/v/intelligentML.svg)](https://pypi.python.org/pypi/intelligentML)
-[![image](https://img.shields.io/conda/vn/conda-forge/intelligentML.svg)](https://anaconda.org/conda-forge/intelligentML)
+[![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)    
 
+[![Python 3.6](https://img.shields.io/badge/python-3.6-blue.svg)](https://www.python.org/downloads/release/python-360/) [![image](https://img.shields.io/pypi/v/intelligentML.svg)](https://pypi.python.org/pypi/intelligentML) [![image](https://img.shields.io/conda/vn/conda-forge/intelligentML.svg)](https://anaconda.org/conda-forge/intelligentML) [![image](https://colab.research.google.com/assets/colab-badge.svg)]() [![image](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![image](https://github.com/gee-community/geemap/workflows/docs/badge.svg)](https://nasif-azam.github.io/intelligentML)
 
 **An intelligent machine learning package. A Python library for handling duplicate data and performing data preprocessing on datasets. This library provides functions to identify and remove duplicate rows, handle missing values, and prepare data for analysis. All you have to do just provide the dataset url or path the library automatically do those tasks.**
 
