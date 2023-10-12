@@ -18,11 +18,11 @@ with io.open(op.join(here, "requirements.txt"), encoding="utf-8") as f:
 install_requires = [x.strip() for x in all_reqs if "git+" not in x]
 dependency_links = [x.strip().replace("git+", "") for x in all_reqs if "git+" not in x]
 
-requirements = [ 'numpy', 'pandas' ]
+requirements = ['numpy', 'pandas']
 
-setup_requirements = [ 'numpy', 'pandas' ]
+setup_requirements = ['numpy', 'pandas']
 
-test_requirements = [ 'numpy', 'pandas' ]
+test_requirements = ['numpy', 'pandas']
 
 setup(
     author="Nasif Azam",
@@ -38,7 +38,7 @@ setup(
         'Programming Language :: Python :: 3.10',
         'Programming Language :: Python :: 3.11',
     ],
-    description="An intelligent machine learning package. A Python library for handling duplicate data and performing data preprocessing on datasets. This library provides functions to identify and remove duplicate rows, handle missing values, and prepare data for analysis. All you have to do just provide the dataset url or path the library automatically do those tasks.",
+    description="An igent machine learning package. A Python library for handling duplicate data and performing data preprocessing on datasets. This library provides functions to identify and remove duplicate rows, handle missing values, and prepare data for analysis. All you have to do just provide the dataset url or path the library automatically do those tasks.",
     install_requires=install_requires,
     dependency_links=dependency_links,
     license="MIT license",
@@ -52,6 +52,6 @@ setup(
     test_suite='tests',
     tests_require=test_requirements,
     url='https://github.com/Nasif-Azam/intelligentML',
-    version='0.0.1',
+    version='0.1.1',
     zip_safe=False,
 )
